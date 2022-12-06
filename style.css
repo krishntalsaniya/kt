@@ -493,7 +493,8 @@ nav .fas
 }
     nav ul 
     {
-        background: white;
+        background: linear-gradient(white,black);
+        color: #080808;
         position: fixed;
         top: 0;
         right: -200px;
@@ -504,6 +505,11 @@ nav .fas
         transition: right 0.5s;
     }
 
+    nav ul li a 
+    {
+        color: #080808;
+        font-size: 20px;
+    }
     nav ul li 
     {
         display: block;
