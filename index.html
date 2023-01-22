@@ -27,15 +27,32 @@
                         <li><a href="#contect">Contact</a></li>
                         <i class="fas fa-times" onclick="closemenu()"></i>
                     </ul>
+                    
                     <i class="fas fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
                     <p>Full-Stack-Web Devloper</p>
-                    <h1>Hi,  I'am  <br> <span> Krishn </span> talsaniya  </h1>
+                    <h1>Hi,  I'am <br> <span class="type"></span> </h1>
                 </div>
             </div>
+
     </div>
 
+    <script src="typed.js"></script>
+
+    <script>
+        var typed = new Typed('.type', {
+        strings: [
+                'Krishn Talsaniya',
+                'Web Designer',
+                'UI/UX Designer',
+                'Full Stack Web Devloper'
+            ],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true,
+});
+    </script>
     <!-- about section start with here -->
 
     <div id="about">
@@ -208,8 +225,8 @@
             <div class="row">
                 <div class="contect-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>talsaniyakrishn2@gmail.com</p>
-                    <p> <i class="fa-solid fa-phone"></i>6357909090</p>
+                    <a href="mailto:talsaniyakrishn2@gmail.com"><p><i class="fa-solid fa-paper-plane"></i>talsaniyakrishn2@gmail.com</p></a>
+                    <a href="tel:+916357909090"><p> <i class="fa-solid fa-phone"></i>6357909090</p></a>
                     <div class="social-icons">
                         <a href="https://www.facebook.com/profile.php?id=100070044115421"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://wa.me/+916357909090"><i class="fa-brands fa-whatsapp"></i></a>
@@ -337,6 +354,7 @@ e.preventDefault();
 
         
     };
+   
     
 
     
