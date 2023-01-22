@@ -244,6 +244,10 @@ nav ul li a:hover::after
     margin-bottom: 15px;
 
 }
+.services-list div p
+{
+    font-size: 16px;
+}
 
 .services-list div a
 {
@@ -334,6 +338,7 @@ nav ul li a:hover::after
     border-radius: 50%;
     text-align: center;
 }
+
 
 .work:hover img
 {
