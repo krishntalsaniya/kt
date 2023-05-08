@@ -21,6 +21,11 @@ tippy('#mybtn', {
     placement: 'bottom',
     animation: 'fade',
   });
+  tippy('#mybtn4', {
+    content: "Github",
+    placement: 'bottom',
+    animation: 'fade',
+  });
 
 
 
